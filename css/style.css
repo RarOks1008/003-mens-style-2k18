@@ -1,0 +1,140 @@
+body {
+    padding-top: 50px;
+	font-family: 'Kaushan Script', cursive;
+}
+.arijal {
+	font-family: 'Handlee', cursive;
+}
+footer {
+    margin-top:25px;
+}
+.abezstila {
+	text-decoration:none;
+}
+.margina10dole {
+	margin-bottom:10px;
+}
+.marginagore {
+	margin-top:50px;
+}
+.list-unstyled li, p span.glyphicon.glyphicon-time {
+	margin-top:5px;
+}
+.obojicrno {
+	background-color:#000;
+}
+.obojicrno p {
+	font-size:16px;
+	color:#fff;
+	text-align:center;
+	padding-top:5px;
+}
+footer ul {
+	list-style-type:none;
+}
+footer ul, footer h4, .centriraj {
+	text-align:center;
+}
+footer ul li a, .rsspod a span {
+	color:#000;
+}
+footer ul li a:hover, .rsspod a span:hover {
+	color:#9d9d9d;
+}
+.rsspod span {
+	font-size:40px;
+	margin:50px 100px;
+}
+.rsspod {
+	text-align:right;
+}
+footer #drmr ul li a span {
+	font-size:40px;
+	margin-top:20px;
+	margin-left:30px;
+}
+footer #drmr {
+	margin-top:5%;
+}
+.reklama {
+	margin-top:200px;
+}
+#glavnih1 {
+	text-align:center;
+}
+.berfont {
+	font-family: 'Berkshire Swash', cursive;
+}
+.okruziobjavu {
+	border-top:1px dotted #9d9d9d;
+	border-bottom:1px dotted #9d9d9d;
+	padding-bottom:4px;
+	margin-top:10px;
+}
+.okruziobjavu button {
+	background-color:#337ab7;
+}
+.tekstdesno {
+	text-align:right;
+}
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+	color:#fff;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-brand:hover, {
+	color:#9d9d9d;
+}
+.well, .aswell {
+	background-color:rgba(157, 157, 157, 0.05);
+	border:2px solid #9d9d9d;
+}
+.page-header {
+	border-bottom:2px dotted #9d9d9d;
+}
+.pager li a {
+	color:#9d9d9d;
+}
+.pager li>a{
+	border:1px solid rgba(157, 157, 157, 0.2);
+}
+blockquote {
+	border-left:3px solid rgba(157, 157, 157, 1);
+	font-size:16px;
+}
+.font15px {
+	font-size:15px;
+}
+.container-fluid {
+	background-color:#c2c2c2;
+}
+.belo {
+	background-color:#fff;
+}
+.plavo {
+	background-color:#c2c2c2;
+}
+.plavo a:hover {
+	color:#5033e6;
+}
+footer ul {
+	-webkit-padding-start: 0px;
+	-moz-padding-start: 0px;
+}
+iframe {
+	width:100%;
+	height:30px;
+	/* MORALO JE ZBOG FACEBOOK-ovog iframe-a */
+}
+@media (min-width: 340px) and (max-width:768px) {
+	footer #drmr ul li a span {
+		margin:0px;
+	}
+	footer .navbar-nav {
+		display:flex;
+		justify-content:space-around;
+	}
+}
+@media (max-width:340px) {
+	iframe {
+		height:50px;
+	}
+}
